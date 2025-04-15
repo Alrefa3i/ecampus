@@ -6,8 +6,11 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl"; // Importing the t function for translations
 import { loginFormSchema } from "@/lib/types";
+import { useRouter } from "next/navigation";
+
 const LoginPage = () => {
   const t = useTranslations("AuthPages.Login");
+  const router = useRouter();
   const { login, user } = useAuth();
   const [formData, setFormData] = useState({ email: "", password: "" });
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -15,12 +18,6 @@ const LoginPage = () => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
-
-  useEffect(() => {
-    if (user) {
-      window.location.href = "/profile"; // Redirect to profile page if user is logged in
-    }
-  }, [user]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -34,13 +31,22 @@ const LoginPage = () => {
       return;
     }
     setErrors({});
-    await login(formData.email, formData.password);
-    alert(t("success")); // Assuming a success message key exists
+    await login(
+      formData.email,
+      formData.password,
+      t("successMessage"),
+      t("successDescription")
+    );
   };
+  useEffect(() => {
+    if (user) {
+      router.push("/");
+    }
+  }, [user]);
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <div className=" w-1/3 h-96 mx-auto mt-10 p-6 bg-white shadow-md rounded-md flex flex-col gap-2">
+    <div className="flex items-center justify-center min-h-[60vh] bg-gray-100 dark:bg-background ">
+      <div className=" w-1/3 h-96 mx-auto mt-10 p-6  shadow-md rounded-md flex flex-col gap-2 bg-accent">
         <div className="mb-4">
           <h1 className="text-2xl font-bold mb-4">{t("title")}</h1>
           <p className="text-sm text-gray-600 mb-4">{t("welcomeBack")}</p>
@@ -66,7 +72,9 @@ const LoginPage = () => {
           {errors.password && (
             <span className="text-red-500 text-xs">{errors.password}</span>
           )}
-          <Button type="submit">{t("submit")}</Button>
+          <Button className="cursor-pointer" type="submit">
+            {t("submit")}
+          </Button>
         </form>
         <div className="mt-4 text-sm text-gray-600">
           {t("noAccount")}{" "}

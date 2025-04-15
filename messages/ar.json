@@ -44,8 +44,9 @@
       "welcomeBack": "مرحبًا بعودتك  ",
       "noAccount": "لا تملك حسابًا؟",
       "registerHere": "سجل هنا",
-
-      "alreadyLoggedIn": "أنت مسجل دخول بالفعل"
+      "alreadyLoggedIn": "أنت مسجل دخول بالفعل",
+      "successMessage": "تم تسجيل الدخول بنجاح!",
+      "successDescription": "يمكنك الآن الوصول إلى حسابك وبدء استكشاف دوراتنا."
     },
     "Profile": {
       "title": "الملف الشخصي",
@@ -58,7 +59,11 @@
 
   "CoursesPage": {
     "title": "الدورات",
-    "description": "استكشف الدورات المتاحة لدينا",
-    "enrollNow": "سجل الآن"
+    "description": "استعرض مجموعتنا من الدورات لتعزيز مهاراتك",
+    "searchPlaceholder": "ابحث عن الدورات ...",
+    "categories": "الفئات",
+    "priceRange": "نطاق السعر",
+    "duration": "المدة",
+    "applyFilters": "تطبيق الفلاتر"
   }
 }

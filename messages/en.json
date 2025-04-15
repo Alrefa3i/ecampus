@@ -44,7 +44,9 @@
       "submit": "Login",
       "noAccount": "Don't have an account?",
       "registerHere": "Register here",
-      "alreadyLoggedIn": "Already logged in"
+      "alreadyLoggedIn": "Already logged in",
+      "successMessage": "You have logged in successfully!",
+      "successDescription": "You can now access your account and start exploring our courses."
     },
     "Profile": {
       "title": "Profile",
@@ -56,7 +58,11 @@
   },
   "CoursesPage": {
     "title": "Courses",
-    "description": "Explore our available courses",
-    "enrollNow": "Enroll Now"
+    "description": "Browse our collection of courses to enhance your skills",
+    "searchPlaceholder": "Search for courses...",
+    "categories": "Categories",
+    "priceRange": "Price Range",
+    "duration": "Duration",
+    "applyFilters": "Apply Filters"
   }
 }

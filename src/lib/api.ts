@@ -2,7 +2,7 @@
 import { jwtDecode } from "jwt-decode";
 import axios from "axios";
 import type { RegisterFormData, LoginFormData, JwtPayload } from "@/lib/types";
-
+import { loginFormSchema } from "@/lib/types";
 const API_ACCOUNT_URL = `${process.env.API_URL}/Account`;
 
 // Register a new user
@@ -13,8 +13,17 @@ export async function registerUser(data: RegisterFormData) {
 
 // Login user
 export async function loginUser(data: LoginFormData) {
+  const result = loginFormSchema.safeParse(data);
+  if (!result.success) {
+    const fieldErrors: Record<string, string> = {};
+    result.error.errors.forEach((err) => {
+      if (err.path[0]) fieldErrors[err.path[0] as string] = err.message;
+    });
+    throw new Error(JSON.stringify(fieldErrors));
+  }
   const response = await axios.post(`${API_ACCOUNT_URL}/login`, data);
-  return response.data.token as string;
+  const token = response.data.token as string;
+  return token;
 }
 
 // Assign role to a user

@@ -24,7 +24,7 @@ export default function Navbar() {
   const { user, logout } = useAuth();
 
   return (
-    <header className=" top-0 sticky z-50 w-full border-b">
+    <header className=" top-0 sticky z-50 w-full border-b bg-background">
       <div className="container flex h-16 items-center justify-between mx-auto">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 font-semibold">
