@@ -29,13 +29,23 @@
       "profilePictureUrl": "رابط صورة الملف الشخصي",
       "submit": "تسجيل",
       "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
-      "loginHere": "تسجيل الدخول هنا"
+      "loginHere": "تسجيل الدخول هنا",
+      "selectMajor": "اختر التخصص",
+      "selectUniversity": "اختر الجامعة",
+      "selectCollege": "اختر الكلية",
+      "successMessage": "تم تسجيلك بنجاح!",
+      "successDescription": "يمكنك الآن تسجيل الدخول إلى حسابك وبدء استكشاف دوراتنا."
     },
     "Login": {
       "title": "تسجيل الدخول",
       "email": "البريد الإلكتروني",
       "password": "كلمة المرور",
-      "submit": "تسجيل الدخول"
+      "submit": "تسجيل الدخول",
+      "welcomeBack": "مرحبًا بعودتك  ",
+      "noAccount": "لا تملك حسابًا؟",
+      "registerHere": "سجل هنا",
+
+      "alreadyLoggedIn": "أنت مسجل دخول بالفعل"
     },
     "Profile": {
       "title": "الملف الشخصي",
@@ -44,5 +54,11 @@
       "phoneNumber": "رقم الهاتف",
       "dateOfBirth": "تاريخ الميلاد"
     }
+  },
+
+  "CoursesPage": {
+    "title": "الدورات",
+    "description": "استكشف الدورات المتاحة لدينا",
+    "enrollNow": "سجل الآن"
   }
 }

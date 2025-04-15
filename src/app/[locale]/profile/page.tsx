@@ -23,7 +23,7 @@ const ProfilePage = () => {
   }, []);
 
   if (!user) {
-    return <div>{t("loading")}</div>;
+    return <div>no</div>;
   }
 
   return (

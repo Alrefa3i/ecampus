@@ -1,6 +1,12 @@
 "use client";
 
-import React, { createContext, useContext, useState } from "react";
+import React, {
+  createContext,
+  use,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 import { loginUser, registerUser, getUserById } from "@/lib/api";
 
 interface AuthContextProps {
@@ -17,6 +23,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
 }) => {
   const [user, setUser] = useState<any>(null);
 
+  useEffect(() => {
+    const token = sessionStorage.getItem("authToken"); // Get the token from session storage
+    if (token) {
+      setUser(token);
+    } else {
+      setUser(null); // Handle the case where the token is not available
+    }
+  }, [user]);
+
   const login = async (email: string, password: string) => {
     const token = await loginUser({ email, password });
     sessionStorage.setItem("authToken", token); // Save token in session storage
@@ -30,7 +45,13 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
   };
 
   const register = async (data: any) => {
-    await registerUser(data);
+    const userData = await registerUser(data);
+    const token = await loginUser({
+      email: data.email,
+      password: data.password,
+    });
+    sessionStorage.setItem("authToken", token); // Save token in session storage
+    setUser(userData);
   };
 
   return (

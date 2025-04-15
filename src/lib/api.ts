@@ -1,38 +1,52 @@
 "use server";
-
+import { jwtDecode } from "jwt-decode";
 import axios from "axios";
+import type { RegisterFormData, LoginFormData, JwtPayload } from "@/lib/types";
 
-const API_BASE_URL = "https://ecampus-edu.runasp.net/api/Account";
+const API_ACCOUNT_URL = `${process.env.API_URL}/Account`;
 
 // Register a new user
-export async function registerUser(data: {
-  firstName: string;
-  lastName: string;
-  email: string;
-  password: string;
-  majorId: number;
-  phoneNumber: string;
-  profilePictureUrl: string;
-}) {
-  const response = await axios.post(`${API_BASE_URL}/register`, data);
+export async function registerUser(data: RegisterFormData) {
+  const response = await axios.post(`${API_ACCOUNT_URL}/register`, data);
   return response.data;
 }
 
 // Login user
-export async function loginUser(data: { email: string; password: string }) {
-  const response = await axios.post(`${API_BASE_URL}/login`, data);
-  return response.data;
+export async function loginUser(data: LoginFormData) {
+  const response = await axios.post(`${API_ACCOUNT_URL}/login`, data);
+  return response.data.token as string;
 }
 
 // Assign role to a user
 export async function assignRole(data: { email: string; roleName: string }) {
-  const response = await axios.post(`${API_BASE_URL}/assign-role`, data);
+  const response = await axios.post(`${API_ACCOUNT_URL}/assign-role`, data);
   return response.data;
 }
 
 // Get user by ID
 export async function getUserById(token: string) {
-  const id = 1; // Replace with actual logic to get the logged-in user's ID
-  const response = await axios.get(`${API_BASE_URL}/${id}`);
+  console.log("Token:", token);
+  const payload = jwtDecode<JwtPayload>(token);
+  const id = payload.nameid;
+  if (!id) throw new Error("Invalid token: missing user id");
+  const response = await axios.get(`${API_ACCOUNT_URL}/${id}`);
+  return response.data;
+}
+
+export async function getUniversities() {
+  const response = await axios.get(`${process.env.API_URL}/University/all`);
+  return response.data;
+}
+
+/// /College/{universityId}
+export async function getColleges(universityId: string) {
+  const response = await axios.get(
+    `${process.env.API_URL}/College/${universityId}`
+  );
+  return response.data;
+}
+
+export async function getMajors(collegeId: string) {
+  const response = await axios.get(`${process.env.API_URL}/Major/${collegeId}`);
   return response.data;
 }

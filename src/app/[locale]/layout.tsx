@@ -5,7 +5,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import { Providers } from "@/components/providers/providers";
 import { Tajawal } from "next/font/google";
-
+import { Toaster } from "@/components/ui/sonner";
 const tajawal = Tajawal({
   subsets: ["latin"],
   variable: "--font-tajawal",
@@ -38,6 +38,7 @@ export default async function LocaleLayout({
         <Providers>
           <Header />
           {children}
+          <Toaster />
         </Providers>
       </body>
     </html>

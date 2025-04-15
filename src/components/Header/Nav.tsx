@@ -43,7 +43,7 @@ export default function Navbar() {
           {links.map((link, index) => (
             <Link
               key={index}
-              href={"/link"}
+              href={`/${link === "home" ? "" : link}`}
               className="text-sm font-medium transition-colors hover:text-primary"
             >
               {t(`Navigation.${link}`)}
@@ -56,7 +56,7 @@ export default function Navbar() {
               variant="ghost"
               size="sm"
               asChild
-              className="hidden md:flex"
+              className="hidden md:flex cursor-pointer"
               onClick={logout}
             >
               <div className="flex items-center gap-2">
@@ -69,7 +69,7 @@ export default function Navbar() {
               variant="ghost"
               size="sm"
               asChild
-              className="hidden md:flex"
+              className="hidden md:flex cursor-pointer"
             >
               <Link href="/login" className="flex items-center gap-2">
                 <LogIn className="h-6 w-6" />
@@ -101,14 +101,17 @@ export default function Navbar() {
                 ))}
                 {user ? (
                   <Button variant="ghost" size="sm" asChild onClick={logout}>
-                    <div className="flex items-center gap-2">
+                    <div className="flex items-center gap-2 cursor-pointer">
                       <LogOut className="h-6 w-6" />
                       <span>{t("Auth.logout")}</span>
                     </div>
                   </Button>
                 ) : (
                   <Button variant="ghost" size="sm" asChild>
-                    <Link href="/login" className="flex items-center gap-2">
+                    <Link
+                      href="/login"
+                      className="flex items-center gap-2 cursor-pointer"
+                    >
                       <LogIn className="h-6 w-6" />
                       <span>{t("Auth.login")}</span>
                     </Link>

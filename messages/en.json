@@ -29,7 +29,12 @@
       "profilePictureUrl": "Profile Picture URL",
       "submit": "Register",
       "alreadyHaveAccount": "Already have an account?",
-      "loginHere": "Login here"
+      "loginHere": "Login here",
+      "selectMajor": "Select Major",
+      "selectUniversity": "Select University",
+      "selectCollege": "Select College",
+      "successMessage": "You have registered successfully!",
+      "successDescription": "You can now log in to your account and start exploring our courses."
     },
     "Login": {
       "title": "Login",
@@ -38,7 +43,8 @@
       "password": "Password",
       "submit": "Login",
       "noAccount": "Don't have an account?",
-      "registerHere": "Register here"
+      "registerHere": "Register here",
+      "alreadyLoggedIn": "Already logged in"
     },
     "Profile": {
       "title": "Profile",
@@ -47,5 +53,10 @@
       "phoneNumber": "Phone Number",
       "dateOfBirth": "Date of Birth"
     }
+  },
+  "CoursesPage": {
+    "title": "Courses",
+    "description": "Explore our available courses",
+    "enrollNow": "Enroll Now"
   }
 }
