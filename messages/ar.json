@@ -1,0 +1,48 @@
+{
+  "HomePage": {
+    "title": "مرحبا بالعالم!",
+    "about": "انتقل إلى صفحة المعلومات"
+  },
+  "Header": {
+    "Language": "اللغة",
+    "title": "مرحبا بك في موقعنا",
+    "Navigation": {
+      "home": "الرئيسية",
+      "courses": "الدورات",
+      "about": "حول",
+      "contact": "اتصل بنا"
+    },
+    "Auth": {
+      "login": "تسجيل الدخول",
+      "logout": "تسجيل الخروج"
+    }
+  },
+  "AuthPages": {
+    "Register": {
+      "title": "تسجيل",
+      "firstName": "الاسم الأول",
+      "lastName": "اسم العائلة",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "majorId": "معرف التخصص",
+      "phoneNumber": "رقم الهاتف",
+      "profilePictureUrl": "رابط صورة الملف الشخصي",
+      "submit": "تسجيل",
+      "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+      "loginHere": "تسجيل الدخول هنا"
+    },
+    "Login": {
+      "title": "تسجيل الدخول",
+      "email": "البريد الإلكتروني",
+      "password": "كلمة المرور",
+      "submit": "تسجيل الدخول"
+    },
+    "Profile": {
+      "title": "الملف الشخصي",
+      "fullName": "الاسم الكامل",
+      "email": "البريد الإلكتروني",
+      "phoneNumber": "رقم الهاتف",
+      "dateOfBirth": "تاريخ الميلاد"
+    }
+  }
+}

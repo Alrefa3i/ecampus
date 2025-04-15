@@ -1,0 +1,51 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "Header": {
+    "Language": "Language",
+    "title": "Welcome to our site",
+    "Navigation": {
+      "home": "Home",
+      "courses": "Courses",
+      "about": "About",
+      "contact": "Contact us"
+    },
+    "Auth": {
+      "login": "Login",
+      "logout": "Logout"
+    }
+  },
+  "AuthPages": {
+    "Register": {
+      "title": "Register",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "majorId": "Major ID",
+      "phoneNumber": "Phone Number",
+      "profilePictureUrl": "Profile Picture URL",
+      "submit": "Register",
+      "alreadyHaveAccount": "Already have an account?",
+      "loginHere": "Login here"
+    },
+    "Login": {
+      "title": "Login",
+      "welcomeBack": "Welcome back in Your Campus",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Login",
+      "noAccount": "Don't have an account?",
+      "registerHere": "Register here"
+    },
+    "Profile": {
+      "title": "Profile",
+      "fullName": "Full Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "dateOfBirth": "Date of Birth"
+    }
+  }
+}

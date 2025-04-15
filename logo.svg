@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="744"
+   height="1804"
+   viewBox="0 0 744 1804"
+   sodipodi:docname="ECAMPUS.ai"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath22">
+      <path
+         d="M 0,1353 H 558 V 0 H 0 Z"
+         id="path20" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38">
+      <path
+         d="M 0,1353 H 558 V 0 H 0 Z"
+         id="path36" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath82">
+      <path
+         d="M 0,1353 H 558 V 0 H 0 Z"
+         id="path80" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath102">
+      <path
+         d="M 0,1353 H 558 V 0 H 0 Z"
+         id="path100" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscape:groupmode="layer"
+     inkscape:label="ECAMPUS"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,1804)">
+    <path
+       d="M 517,929 H 42 v 389 h 475 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path10" />
+    <path
+       d="M 516,476 H 41 v 389 h 475 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path12" />
+    <path
+       d="M 521,23 H 46 v 389 h 475 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path14" />
+    <g
+       id="g16">
+      <g
+         id="g18"
+         clip-path="url(#clipPath22)">
+        <g
+           id="g24"
+           transform="translate(232.8501,812.0186)">
+          <path
+             d="m 0,0 c -16.032,1.349 -31.093,-3.929 -42.485,-13.548 -11.388,-9.625 -19.106,-23.593 -20.455,-39.625 l -18.109,1.524 c 1.348,16.032 9.067,29.999 20.455,39.625 11.392,9.619 26.452,14.896 42.485,13.547 z"
+             style="fill:#f49819;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path26" />
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,105.9883,526.1079)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40.6226px;font-family:'Bigail Personal Used';-inkscape-font-specification:BigailPersonalUsed;writing-mode:lr-tb;fill:#013855;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text30"><tspan
+         x="0 22.789278 44.197388 69.749001 105.61876 129.50485 155.01584 176.78955 188.57011 215.13728 240.64828"
+         y="0"
+         sodipodi:role="line"
+         id="tspan28">eCampus Hub</tspan></text>
+    <g
+       id="g32">
+      <g
+         id="g34"
+         clip-path="url(#clipPath38)">
+        <g
+           id="g40"
+           transform="translate(434.7158,795.0381)">
+          <path
+             d="m 0,0 c -1.349,-16.032 -9.067,-30 -20.455,-39.625 -11.393,-9.619 -26.453,-14.896 -42.485,-13.548 l -201.866,16.981 c 1.349,16.032 9.068,30 20.455,39.625 11.393,9.619 26.453,14.896 42.485,13.547 z"
+             style="fill:#013855;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path42" />
+        </g>
+        <g
+           id="g44"
+           transform="translate(452.8252,793.5146)">
+          <path
+             d="m 0,0 c -1.349,-16.032 -9.067,-30 -20.455,-39.625 -11.393,-9.619 -26.453,-14.896 -42.485,-13.548 l -18.11,1.524 c 16.032,-1.349 31.093,3.928 42.486,13.547 11.387,9.625 19.106,23.593 20.455,39.625 z"
+             style="fill:#f49819;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path46" />
+        </g>
+        <g
+           id="g48"
+           transform="translate(194.3657,640.4414)">
+          <path
+             d="m 0,0 c -16.032,1.349 -31.093,-3.929 -42.485,-13.548 -11.388,-9.625 -19.106,-23.593 -20.455,-39.625 l -18.109,1.524 c 1.348,16.032 9.067,30 20.454,39.625 11.393,9.619 26.453,14.896 42.486,13.547 z"
+             style="fill:#f49819;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path50" />
+        </g>
+        <g
+           id="g52"
+           transform="translate(396.2314,623.4609)">
+          <path
+             d="m 0,0 c -1.349,-16.032 -9.067,-30 -20.455,-39.625 -11.393,-9.619 -26.453,-14.896 -42.485,-13.548 l -201.866,16.981 c 1.349,16.032 9.068,30 20.455,39.625 11.393,9.619 26.453,14.896 42.485,13.547 z"
+             style="fill:#013855;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path54" />
+        </g>
+        <g
+           id="g56"
+           transform="translate(414.3408,621.9375)">
+          <path
+             d="m 0,0 c -1.349,-16.032 -9.067,-29.999 -20.455,-39.625 -11.393,-9.619 -26.453,-14.896 -42.485,-13.548 l -18.11,1.524 c 16.032,-1.349 31.093,3.928 42.486,13.547 11.387,9.625 19.106,23.593 20.455,39.625 z"
+             style="fill:#f49819;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path58" />
+        </g>
+        <g
+           id="g60"
+           transform="translate(335.0742,656.4473)">
+          <path
+             d="m 0,0 -190.666,16.038 c 2.697,32.064 30.876,55.87 62.94,53.173 L 62.94,53.173 C 60.243,21.109 32.063,-2.697 0,0"
+             style="fill:#013855;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path62" />
+        </g>
+        <g
+           id="g64"
+           transform="translate(377.6035,1113.2739)">
+          <path
+             d="m 0,0 -46.605,-58.135 -98.468,78.939 4.341,5.415 c 8.502,10.605 23.991,12.31 34.596,3.808 l 54.649,-43.81 19.083,23.803 c 11.258,14.045 9.001,34.558 -5.044,45.818 l -73.037,58.552 c -13.596,10.9 -15.782,30.756 -4.883,44.352 L -7.998,72.667 C 14.276,54.809 17.858,22.275 0,0"
+             style="fill:#013855;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path66" />
+        </g>
+        <g
+           id="g68"
+           transform="translate(297.5996,1013.1182)">
+          <path
+             d="m 0,0 v 0 l -113.924,91.331 c -16.846,13.504 -19.554,38.107 -6.049,54.953 l 52.736,65.782 13.178,-10.564 c 6.016,-4.823 6.983,-13.609 2.161,-19.626 l -33.944,-42.34 c -8.404,-10.482 -6.718,-25.791 3.763,-34.194 L -4.773,43.368 C 8.521,32.71 10.658,13.294 0,0"
+             style="fill:#f49819;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path70" />
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-1,177.3018,959.5913)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.2398px;font-family:'Bigail Personal Used';-inkscape-font-specification:BigailPersonalUsed;writing-mode:lr-tb;fill:#013855;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text74"><tspan
+         x="0 26.501528 51.396904 81.110733 122.82348 150.60048 180.26707"
+         y="0"
+         sodipodi:role="line"
+         id="tspan72">eCampus</tspan></text>
+    <g
+       id="g76">
+      <g
+         id="g78"
+         clip-path="url(#clipPath82)">
+        <g
+           id="g84"
+           transform="translate(274.3823,98.5244)">
+          <path
+             d="m 0,0 -67.908,-43.461 v 258.05 L 0,253.16 Z"
+             style="fill:#013855;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path86" />
+        </g>
+        <g
+           id="g88"
+           transform="translate(283.6182,237.7139)">
+          <path
+             d="m 0,0 v 15.754 99.961 l 67.907,38.571 V 49.979"
+             style="fill:#f49819;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path90" />
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0,1,1,0,259.1943,102.3467)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:49.5815px;font-family:'Bigail Personal Used';-inkscape-font-specification:BigailPersonalUsed;writing-mode:lr-tb;fill:#f49819;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text94"><tspan
+         x="0 27.815222 53.944672 85.131439 128.9119 158.06583 189.203"
+         y="0"
+         sodipodi:role="line"
+         id="tspan92">eCampus</tspan></text>
+    <g
+       id="g96">
+      <g
+         id="g98"
+         clip-path="url(#clipPath102)">
+        <text
+           xml:space="preserve"
+           transform="matrix(1,0,0,-1,196.0054,3.2598)"
+           style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.1257px;font-family:'Adobe Arabic';-inkscape-font-specification:AdobeArabic-Regular;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="text106"><tspan
+             x="0 8.8227682 16.929003 21.633514 30.089573 42.490181 55.141701 67.542313 80.859695 85.564209 97.964821 111.78884 127.66355 140.06416"
+             y="0"
+             sodipodi:role="line"
+             id="tspan104">by SANAD AHMAD</tspan></text>
+        <g
+           id="g108"
+           transform="translate(361.9941,13.1768)">
+          <path
+             d="m 0,0 c 0,-3.18 -2.577,-5.757 -5.756,-5.757 -3.18,0 -5.757,2.577 -5.757,5.757 0,3.18 2.577,5.757 5.757,5.757 C -2.577,5.757 0,3.18 0,0"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path110" />
+        </g>
+        <g
+           id="g112"
+           transform="translate(361.9941,13.1768)">
+          <path
+             d="m 0,0 c 0,-3.18 -2.577,-5.757 -5.756,-5.757 -3.18,0 -5.757,2.577 -5.757,5.757 0,3.18 2.577,5.757 5.757,5.757 C -2.577,5.757 0,3.18 0,0 Z"
+             style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             id="path114" />
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(1,0,0,-0.85800474,351.313,8.9932)"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.5641px;font-family:Calibri;-inkscape-font-specification:Calibri;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text118"><tspan
+         x="0"
+         y="0"
+         id="tspan116">c</tspan></text>
+  </g>
+</svg>
