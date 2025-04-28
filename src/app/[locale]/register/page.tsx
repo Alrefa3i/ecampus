@@ -13,7 +13,7 @@ import {
   SelectContent,
   SelectItem,
 } from "@/components/ui/select";
-import { getColleges, getMajors, getUniversities } from "@/lib/api";
+import { getColleges, getMajor, getUniversities } from "@/lib/api";
 import { useLocale } from "next-intl";
 import { toast } from "sonner";
 import { redirect } from "next/navigation";
@@ -68,7 +68,7 @@ const RegisterPage = () => {
   useEffect(() => {
     if (selectedCollege) {
       // setMajors from getMajors API function
-      getMajors(selectedCollege)
+      getMajor(selectedCollege)
         .then((data) => setMajors(data))
         .catch(() => setMajors([]));
       setFormData((prev) => ({ ...prev, majorId: 0 }));
@@ -97,7 +97,7 @@ const RegisterPage = () => {
       return;
     }
     setErrors({});
-    console.log("Form data:", formData); // Debugging line
+
     await register(formData);
     toast.success(t("Register.successMessage"), {
       description: t("Register.successDescription"),
@@ -106,7 +106,7 @@ const RegisterPage = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-10 p-6 bg-white shadow-md rounded-md">
+    <div className="max-w-md mx-auto mt-10 p-6  shadow-md rounded-md ">
       <h1 className="text-2xl font-bold mb-4">{t("Register.title")}</h1>
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
         <Input

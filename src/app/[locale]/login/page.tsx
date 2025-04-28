@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl"; // Importing the t function for translations
 import { loginFormSchema } from "@/lib/types";
 import { useRouter } from "next/navigation";
+import { Eye, EyeOff } from "lucide-react"; // Import eye icons for password visibility toggle
 
 const LoginPage = () => {
   const t = useTranslations("AuthPages.Login");
@@ -14,6 +15,7 @@ const LoginPage = () => {
   const { login, user } = useAuth();
   const [formData, setFormData] = useState({ email: "", password: "" });
   const [errors, setErrors] = useState<Record<string, string>>({});
+  const [showPassword, setShowPassword] = useState(false); // State to toggle password visibility
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -45,8 +47,8 @@ const LoginPage = () => {
   }, [user]);
 
   return (
-    <div className="flex items-center justify-center min-h-[60vh] bg-gray-100 dark:bg-background ">
-      <div className=" w-1/3 h-96 mx-auto mt-10 p-6  shadow-md rounded-md flex flex-col gap-2 bg-accent">
+    <div className="flex items-center justify-center min-h-[60vh]  ">
+      <div className="  min-w-80 w-1/3 h-96 mx-auto mt-10 p-6  shadow-md rounded-md flex flex-col gap-2 ">
         <div className="mb-4">
           <h1 className="text-2xl font-bold mb-4">{t("title")}</h1>
           <p className="text-sm text-gray-600 mb-4">{t("welcomeBack")}</p>
@@ -62,13 +64,22 @@ const LoginPage = () => {
           {errors.email && (
             <span className="text-red-500 text-xs">{errors.email}</span>
           )}
-          <Input
-            name="password"
-            type="password"
-            placeholder={t("password")}
-            onChange={handleChange}
-            value={formData.password}
-          />
+          <div className="relative">
+            <Input
+              name="password"
+              type={showPassword ? "text" : "password"}
+              placeholder={t("password")}
+              onChange={handleChange}
+              value={formData.password}
+            />
+            <button
+              type="button"
+              className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-500"
+              onClick={() => setShowPassword(!showPassword)}
+            >
+              {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
+            </button>
+          </div>
           {errors.password && (
             <span className="text-red-500 text-xs">{errors.password}</span>
           )}

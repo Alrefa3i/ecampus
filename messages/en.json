@@ -1,4 +1,175 @@
 {
+  "Hero": {
+    "badge": "New",
+    "badgeText": "Design is out now!",
+    "heading": "Experience the Shadcn landing page",
+    "description": "We're more than just a tool, we're a community of passionate creators. Get access to exclusive resources, tutorials, and support.",
+    "getStartedButton": "Get Started",
+    "contactButton": "Contact Us"
+  },
+  "Benefits": {
+    "sectionTitle": "Benefits",
+    "heading": "Your Shortcut to Success",
+    "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ducimus reprehenderit architecto rerum similique facere odit deleniti necessitatibus quo quae.",
+    "items": [
+      {
+        "title": "Build Brand Trust",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores."
+      },
+      {
+        "title": "More Leads",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur."
+      },
+      {
+        "title": "Higher Conversions",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam"
+      },
+      {
+        "title": "Test Marketing Ideas",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores."
+      }
+    ]
+  },
+  "Features": {
+    "sectionTitle": "Features",
+    "heading": "What Makes Us Different",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio facere tenetur.",
+    "items": [
+      {
+        "title": "Mobile Friendly",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur."
+      },
+      {
+        "title": "Social Proof",
+        "description": "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam."
+      },
+      {
+        "title": "Targeted Content",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam."
+      },
+      {
+        "title": "Strong Visuals",
+        "description": "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam."
+      },
+      {
+        "title": "Clear CTA",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur."
+      },
+      {
+        "title": "Clear Headline",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur."
+      }
+    ]
+  },
+  "Testimonials": {
+    "sectionTitle": "Testimonials",
+    "heading": "Hear What Our 1000+ Clients Say",
+    "reviews": [
+      {
+        "name": "John Doe",
+        "role": "Product Manager",
+        "comment": "Wow NextJs + Shadcn is awesome!. This template lets me change colors, fonts and images to match my brand identity.",
+        "rating": 5.0
+      },
+      {
+        "name": "Sophia Collins",
+        "role": "Cybersecurity Analyst",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+        "rating": 4.8
+      },
+      {
+        "name": "Adam Johnson",
+        "role": "Chief Technology Officer",
+        "comment": "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "rating": 4.9
+      },
+      {
+        "name": "Ethan Parker",
+        "role": "Data Scientist",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+        "rating": 5.0
+      },
+      {
+        "name": "Ava Mitchell",
+        "role": "IT Project Manager",
+        "comment": "Lorem ipsum dolor sit amet, tempor incididunt aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+        "rating": 5.0
+      },
+      {
+        "name": "Isabella Reed",
+        "role": "DevOps Engineer",
+        "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "rating": 4.9
+      }
+    ]
+  },
+  "Team": {
+    "sectionTitle": "Team",
+    "heading": "Our Dream Team"
+  },
+  "Community": {
+    "title": "Ready to Join this Community?",
+    "description": "Join our vibrant Discord community! Connect, share, and grow with like-minded enthusiasts. Click to join us! 🚀",
+    "joinButton": "Join Discord"
+  },
+  "Contact": {
+    "sectionTitle": "Contact Us",
+    "heading": "Get in Touch",
+    "description": "Have a question or want to work with us? Fill out the form below and we'll get back to you as soon as possible.",
+    "findUs": "Find Us",
+    "address": "742 Evergreen Terrace, Springfield, IL 62704",
+    "callUs": "Call Us",
+    "phoneNumber": "+1 (619) 123-4567",
+    "mailUs": "Mail Us",
+    "email": "leomirandadev@gmail.com",
+    "visitUs": "Visit Us",
+    "hours": {
+      "days": "Monday - Friday",
+      "time": "8am - 4pm"
+    },
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "subject": "Subject",
+      "subjects": {
+        "webDevelopment": "Web Development",
+        "mobileDevelopment": "Mobile Development",
+        "figmaDesign": "Figma Design",
+        "restApi": "REST API",
+        "fullstackProject": "FullStack Project"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Your message...",
+      "sendButton": "Send Message"
+    }
+  },
+  "FAQ": {
+    "sectionTitle": "FAQ",
+    "heading": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "Is this template free?",
+        "answer": "Yes. It's a free NextJS Shadcn template."
+      },
+      {
+        "question": "Can I use this template for commercial projects?",
+        "answer": "Yes, this template is available for both personal and commercial use."
+      },
+      {
+        "question": "How do I customize the colors?",
+        "answer": "You can customize colors by modifying the theme configuration in your project files."
+      },
+      {
+        "question": "Is this template responsive?",
+        "answer": "Yes, the template is fully responsive and works on all devices."
+      },
+      {
+        "question": "How often does this template get updated?",
+        "answer": "We update the template regularly to fix bugs and add new features."
+      }
+    ]
+  },
   "HomePage": {
     "title": "Hello world!",
     "about": "Go to the about page"
@@ -10,7 +181,8 @@
       "home": "Home",
       "courses": "Courses",
       "about": "About",
-      "contact": "Contact us"
+      "contact": "Contact us",
+      "profile": "Profile"
     },
     "Auth": {
       "login": "Login",
@@ -53,7 +225,35 @@
       "fullName": "Full Name",
       "email": "Email",
       "phoneNumber": "Phone Number",
-      "dateOfBirth": "Date of Birth"
+      "dateOfBirth": "Date of Birth",
+      "error": "Error",
+      "tryAgain": "Try Again",
+      "logout": "Logout",
+      "notProvided": "Not provided",
+      "joined": "Joined",
+      "enrolledCourses": "Enrolled Courses",
+      "aboutMe": "About Me",
+      "savedCourses": "Saved Courses",
+      "myChats": "My Chats",
+      "profileNotFound": "Profile Not Found",
+      "profileNotFoundDescription": "The profile you're looking for could not be found or you don't have permission to view it.",
+      "student": "Student",
+      "userId": "User ID",
+      "profileStatus": "Profile Status",
+      "approved": "Approved",
+      "notApproved": "Not Approved",
+      "active": "Active",
+      "lockedOut": "Locked Out",
+      "completeProfile": "Complete your Profile",
+      "completeProfileDescription": "Please complete your profile (1/3)",
+      "about": "About",
+      "skills": "Skills",
+      "noEnrolledCourses": "No enrolled courses yet",
+      "noSavedCourses": "No saved courses yet",
+      "savedSlides": "Saved Slides",
+      "noSavedSlides": "No saved slides yet",
+      "myRecommendations": "My Recommendations",
+      "noRecommendations": "No recommendations yet"
     }
   },
   "CoursesPage": {
@@ -63,6 +263,168 @@
     "categories": "Categories",
     "priceRange": "Price Range",
     "duration": "Duration",
-    "applyFilters": "Apply Filters"
+    "applyFilters": "Apply Filters",
+    "resetFilters": "Reset Filters",
+    "currency": "JOD",
+    "hours": "Hours",
+    "no_courses_found": "No courses found",
+    "filters": "Filters"
+  },
+  "CoursePage": {
+    "CourseDuration": "Course Duration",
+    "watchPreview": "Watch Preview",
+    "totalEnrollments": "Total Enrollments",
+    "enrollNow": "Enroll Now",
+    "courseContent": "Course Content",
+    "courseDescription": "Course Description",
+    "hours": "Hours",
+    "student": "Student",
+    "students": "Students Enrolled",
+    "courseIncludes": "This Course Includes:",
+    "recordedVideos": "Recorded Videos",
+    "moneyBackGuarantee": "30-Day Money-Back Guarantee",
+    "freeTestsAssignments": "Free Tests and Assignments",
+    "certifiedCertificate": "Platform-Certified Certificate",
+    "fullyOnline": "100% Online",
+    "shareWithFriend": "Share with a Friend",
+    "copyLink": "Copy Link",
+    "createdOn": "Created",
+    "lastUpdated": "Last Updated",
+    "linkCopied": "Copy That!",
+    "linkCopiedDescription": "The link has been copied to your clipboard.",
+    "currency": "JOD",
+    "learningObjectives": "Learning Objectives",
+    "learningObjectivesDescription": "By the end of this course, you will be able to understand the key concepts and apply them in real-world scenarios.",
+    "courseRequirements": "Course Prerequisites",
+    "courseRequirementsDescription": "To get the most out of this course, you should have a basic understanding of the subject matter. No prior experience is required, but familiarity with related concepts will be beneficial.",
+    "previewCourseContent": "Preview Course Content",
+    "previewCourseContentDescription": "This course covers a wide range of topics, including but not limited to:"
+  },
+  "PaymentPage": {
+    "title": "Course Payment",
+    "subtitle": "Complete your enrollment",
+    "courseDetails": "Course Details",
+    "courseName": "Course Name",
+    "courseInstructor": "Instructor",
+    "coursePrice": "Price",
+    "paymentOptions": "Payment Options",
+    "prepaidCard": "Use Prepaid Card",
+    "prepaidCardPlaceholder": "Enter prepaid card code",
+    "couponCode": "Have a Coupon?",
+    "couponCodePlaceholder": "Enter coupon code",
+    "referralCode": "Have a Referral Code?",
+    "referralCodePlaceholder": "Enter referral code",
+    "paymentSummary": "Payment Summary",
+    "originalPrice": "Original Price",
+    "discountAmount": "Discount",
+    "finalPrice": "Final Price",
+    "proceedToPayment": "Proceed to Payment",
+    "backToCourse": "Back to Course",
+    "paymentSuccessful": "Payment Successful!",
+    "paymentSuccessfulDescription": "You have successfully enrolled in this course.",
+    "paymentFailed": "Payment Failed",
+    "paymentFailedDescription": "Something went wrong with your payment. Please try again.",
+    "goToCourse": "Go to Course",
+    "continueShopping": "Continue Shopping",
+    "paymentProcessing": "Processing Payment...",
+    "currency": "JOD",
+    "applyCoupon": "Apply",
+    "couponApplied": "Coupon Applied",
+    "invalidCoupon": "Invalid Coupon",
+    "paymentRequired": "Payment Required",
+    "paymentRequiredDescription": "Please complete the payment to enroll in this course."
+  },
+  "AboutPage": {
+    "hero": {
+      "title": "eCampus",
+      "subtitle": "Comprehensive Educational Platform for Training and Development",
+      "description": "Preparing Students and Graduates for the Job Market",
+      "imageAlt": "eCampus Logo",
+      "joinAsStudent": "Join as Student",
+      "joinAsInstructor": "Join as Instructor"
+    },
+    "about": {
+      "title": "About Us",
+      "vision": {
+        "title": "Our Vision",
+        "description": "At eCampus, we strive to empower the next generation of professionals by providing them with the skills and practical experience needed to succeed in the ever-changing job market."
+      },
+      "mission": {
+        "title": "Our Mission",
+        "description": "We work to bridge the gap between academic education and job market requirements by providing specialized training programs, professional educational courses, and opportunities for practical application."
+      }
+    },
+    "features": {
+      "title": "What Sets Us Apart?",
+      "flexible": "Flexible Learning: Study anytime, anywhere",
+      "quality": "High-Quality Content: Designed by experts in their fields",
+      "certified": "Certified Credentials: Recognized by employers",
+      "personalized": "Personal Guidance: Customized support for each learner",
+      "network": "Professional Network: Connect with colleagues and professionals in your field"
+    },
+    "join": {
+      "title": "Join Us!",
+      "tabs": {
+        "students": "For Students and Graduates",
+        "instructors": "For Instructors and Experts"
+      }
+    },
+    "students": {
+      "title": "Develop Your Skills and Be Job Market Ready",
+      "description": "With us, you'll have the opportunity to learn skills required in the job market, connect with companies, and build a strong resume.",
+      "benefits": {
+        "learn": {
+          "title": "Learn New Skills",
+          "description": "Accredited courses in various fields"
+        },
+        "opportunities": {
+          "title": "Employment Opportunities",
+          "description": "Direct contact with companies and institutions"
+        },
+        "projects": {
+          "title": "Practical Projects",
+          "description": "Apply skills in a realistic environment"
+        },
+        "certificates": {
+          "title": "Recognized Certificates",
+          "description": "Enhance your job market prospects"
+        }
+      },
+      "registerButton": "Register as a Student Now"
+    },
+    "instructors": {
+      "title": "Share Your Expertise and Help Develop Talent",
+      "description": "We provide you with an integrated platform to deliver courses in your field, build your reputation as an expert, and interact with enthusiastic learners.",
+      "benefits": [
+        "Design and deliver courses in your area of expertise",
+        "Access to thousands of interested students",
+        "Integrated tools for managing virtual classrooms",
+        "Opportunities to collaborate with other experts"
+      ],
+      "joinButton": "Join as an Instructor"
+    },
+    "cta": {
+      "title": "Be Part of the Future of Education",
+      "description": "Whether you're a student seeking to develop your skills or an expert looking to share your knowledge, eCampus is your ideal environment for professional growth and development.",
+      "exploreCourses": "Explore Courses",
+      "contactUs": "Contact Us"
+    }
+  },
+  "CourseViewer": {
+    "courseContent": "Course Content",
+    "noContentAvailable": "No Content Available",
+    "noContentDescription": "This course does not have any content yet.",
+    "selectLesson": "Select a lesson to view the content",
+    "contentPlaceholder": "Lesson Content",
+    "contentLocked": "This content is locked",
+    "contentLockedDescription": "Enroll in this course to access all lessons and resources",
+    "enrollNow": "Enroll Now",
+    "noDescription": "No description available.",
+    "locked": "Locked",
+    "errorMessages": {
+      "CourseNotFound": "Course Not Found",
+      "NotEnrolled": "You are not enrolled in this course."
+    },
+    "openInNewTab": "Open in New Tab"
   }
 }

@@ -1,5 +1,21 @@
 import { z } from "zod";
 
+export type User = {
+  userId: string;
+  fullName: string;
+  email: string;
+  phoneNumber: string;
+  dateOfBirth: string;
+  passwordHash: string;
+  passwordSalt: string;
+  profilePictureUrl: string;
+  isApproved: boolean;
+  isLockedOut: boolean;
+  failedLoginAttempts: number;
+  createdDate: string;
+  lastLoginDate?: string | null;
+};
+
 // Register Form Data Type
 export type RegisterFormData = {
   firstName: string;
@@ -47,3 +63,32 @@ export const loginFormSchema = z.object({
   email: z.string().email("Invalid email format"),
   password: z.string().min(6, "Password must be at least 6 characters long"),
 });
+
+export type Course = {
+  courseId: number;
+  instructorId: number;
+  title: string;
+  categoryId: number;
+  majorId: number;
+  thumbnailImageUrl: string;
+  description: string;
+  learningObjectives?: string;
+  prerequisites?: string;
+  currentPrice: number;
+  originalPrice: number;
+  createdDate: string;
+  lastUpdatedDate: string;
+  courseDuration: number;
+  languageOfInstruction: string;
+  totalEnrollments: number;
+  isApproved: boolean;
+  trialContentUrl?: string;
+};
+
+export interface PaymentFormData {
+  studentId: number;
+  courseId: number;
+  prepaidCardCode?: string;
+  couponCode?: string;
+  referralCode?: number;
+}

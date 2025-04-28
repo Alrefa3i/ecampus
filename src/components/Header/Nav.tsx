@@ -1,5 +1,5 @@
 "use client";
-
+import React from "react";
 import { useTranslations } from "next-intl";
 import {
   Drawer,
@@ -17,11 +17,22 @@ import { useAuth } from "@/components/providers/auth-provider";
 
 import { ModeToggle } from "@/components/ThemeToggle";
 import LanguageSwitcher from "../LanguageSwitcher";
+import { useEffect, useState } from "react";
 
 export default function Navbar() {
   const t = useTranslations("Header");
-  const links = ["home", "about", "courses", "contact"];
+  const [links, setLinks] = useState<string[]>(["home", "about", "courses"]);
+  const [open, setOpen] = useState(false);
+
   const { user, logout } = useAuth();
+
+  useEffect(() => {
+    if (user) {
+      setLinks((prev) => [...prev, "profile"]);
+    } else {
+      setLinks((prev) => prev.filter((link) => link !== "profile"));
+    }
+  }, [user]);
 
   return (
     <header className=" top-0 sticky z-50 w-full border-b bg-background">
@@ -80,7 +91,7 @@ export default function Navbar() {
           <ModeToggle />
           <LanguageSwitcher />
 
-          <Drawer>
+          <Drawer open={open} onOpenChange={setOpen}>
             <DrawerTrigger className="md:hidden md:px-4  cursor-pointer ">
               <Menu className="h-6 w-6" />
             </DrawerTrigger>
@@ -93,7 +104,11 @@ export default function Navbar() {
                 {links.map((link, index) => (
                   <Link
                     key={index}
-                    href={"/link"}
+                    href={`/${link === "home" ? "" : link}`}
+                    onClick={() => {
+                      setOpen(false);
+                      document.body.style.overflow = "auto"; // Enable scrolling
+                    }}
                     className="text-sm font-medium transition-colors hover:text-primary"
                   >
                     {t(`Navigation.${link}`)}

@@ -6,11 +6,22 @@ import Header from "@/components/Header";
 import { Providers } from "@/components/providers/providers";
 import { Tajawal } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
+import Footer from "@/components/Footer";
 const tajawal = Tajawal({
   subsets: ["latin"],
   variable: "--font-tajawal",
   weight: ["200", "300", "400", "500", "700", "800", "900"],
 });
+
+// SEO
+export const metadata = {
+  title: "eCamups Platform",
+  description:
+    "eCampus Platform is a web application that provides a comprehensive solution for managing university and college campuses. It offers features such as course management, student enrollment, attendance tracking, and more.",
+  icons: {
+    icon: "/logo.svg",
+  },
+};
 
 export default async function LocaleLayout({
   children,
@@ -39,6 +50,7 @@ export default async function LocaleLayout({
           <Header />
           {children}
           <Toaster />
+          <Footer />
         </Providers>
       </body>
     </html>
